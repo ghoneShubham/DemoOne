@@ -1,0 +1,265 @@
+#COMMIT CHANGES:
+create Repo
+Add File
+pwd
+cd d:
+cd devops
+git clone link
+ls
+cd tues
+ls
+git status
+git log
+vim test.txt
+git status
+git add test.txt
+git status
+cat test.txt
+hello
+git commit -m "code added"
+git push origin main
+
+#PUSH PULL:
+create empty Repo
+create 3 files 
+pwd
+cd d:
+cd foldername
+git init
+ls
+git add.
+git status
+git commit -m "ok"
+git branch -m main
+git remote add origin link
+git push origin main
+git pull origin main
+
+
+#BRANCH MERGE:
+pwd
+cd d:
+cd devops
+cd sofi
+git status
+git log --online --decorate
+git branch demo
+git status
+git log --online --decorate4
+git checkout demo
+git status
+git log --online --decorate
+vim one_demo.txt
+cat one_demo.txt
+hellow
+git status
+git add one_demo.txt
+git status
+git commit -m "okk"
+git log --online --decorate
+git push origin demo
+git checkout main
+git merge demo
+git status 
+git push origin main
+
+
+#forking 
+click first acc
+click on fork opt
+cd
+git clone link fork repo
+ls
+cat test.txt
+hello
+vim test.txt
+cat test.txt
+git status
+git remote origin 
+git remote rm origin 
+git remote
+git add .
+git status 
+git commit -m "adding updation" 
+git status
+git remote add origin link
+profile-setting-developer setting-personal token-generate new token -copy link url
+git remote add origin link
+git remote set-url  origin linkurl
+git push origin main
+create pull req -give title-click on merge req
+
+
+#branch and rebase 
+create one folder
+open gitbash go to folder
+cd
+git init
+git status
+touch master1.txt
+git status
+vim master1.txt
+cat master1.txt
+hii
+
+git status
+git add.
+git status
+git commit -m "added master1.txt"
+git branch hiray
+git checkout hiray
+git status
+vim hiray1.txt
+git status 
+git add.
+git commit -m "added hiray1"
+git status 
+git log
+git checkout master
+git status 
+vim master2.txt
+cat
+git status
+git add.
+git commit -m "hhhh"
+git checkout hiray
+git status
+log
+#rebase
+create folder
+cd 
+git init
+git status
+touch m1.txt
+git add .
+git commit -m 
+git log 
+git branch hiray
+git checkout hiray
+git status 
+git log
+touch h1.txt
+git add .
+git commit -m "hhhh"
+git status
+git log 
+git checkout master
+touch m2.txt
+git add .
+git commit -m 
+git log 
+
+git checkout hiray
+git status 
+git log
+git rebase master
+
+
+#docker
+docker info
+docker run hello-world
+docker container ls -a
+docker run -d -p 9090:80 nginx
+docker ps
+docker pull ubuntu
+docker images
+docker run -d --name my-Linux ubuntu
+docker rm my-Linux
+docker run -itd --name my-Linux ubuntu
+docker ps
+docker exec -it my-Linux /bin/bash
+ps-a
+docker ps
+docker network ls
+docker volume ls
+docker volume create mydata
+docker volume ls
+docker run -it busybox
+mkdir data
+echo "some data">/data/file.txt
+ls  cd data/   ls 
+cat fike.txt
+some data
+docker ps
+docker run -it -v mydata:/data busybox
+echo "entering data again">data/file1.txt
+cd data
+ls
+ls-1rt
+docker volume ls
+docker run -it -v mydata:/data busybox
+
+#Ansible : Creating first playbook 
+sudo apt install ansible
+ansible –version
+mkdir mca1
+cd mca1
+ls
+#Create ansible file as: 
+name:first ansable demo
+host:localhost
+task:
+ -name: print hello world 
+debug:
+ msg: "hello"
+Exit from editor by pressing Ctlr+o, Enter and then Ctrl+x 
+cat first.yml
+Install and run apache using Playbook as: 
+1. Creating simple yml for apache 
+nano second.yml
+cat second.yml
+ansible-playbook second.yml
+sudo systemctl status apache2
+cat third.yml
+ansible-playbook third.yml
+cat fourth.yml
+ansible-playbook fourth.yml
+sudo apt install openjdk-21-jdk-headless 
+sudo apt install openjdk-21-jre-headless 
+java -version
+javac -version
+cat javaplaybook.yml
+ansible-playbook javaplaybook.yml
+#pull
+sudo apt-get install git
+git init
+git clone link
+ansible –pull -U link -i inventory.ini dempull,yml
+
+
+
+#Jenkins
+1. Download Jenkins
+2. Click on “local host” as
+3. You will get the page as:
+4. Copy the path and paste in windows browser for “Initial admin Password”
+5. You will get the password as:
+6. Click on “Continue”
+7. You will see the following page:
+8. Click on “Install Suggested Plugins” (it will automatically install suggested plugins”)
+9. You will get the following page where you can create new user name and password:
+10. Once you will provide the username and password , you will get the default host as:
+11. Click on “Save and Finish”, You will get the following page:
+12. Click on “Start using Jenkins”, You will be able to see the Jenkins Dashboard as:
+1. Click on “New Item”
+2. Enter item name and click on “Pipeline” and click on “OK” button.
+general
+scrool config to pipeline write a scrip[ save 
+build now filter -console op
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
